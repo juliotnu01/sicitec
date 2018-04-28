@@ -163,12 +163,12 @@ ul, ol {
 }
 
 .bg-img .overlay {
-    position: absolute;
+  position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: .6;
+    opacity: .8;
     background: #5dbd9f;
 }
 
@@ -579,7 +579,7 @@ header {
 }
 
 #home {
-    height:  80vh;
+    height:  100vh;
 }
 
 #home .home-wrapper {
@@ -640,7 +640,7 @@ header {
 
 .about:after {
     content: "";
-    background-color: #10694d;
+    background-color: #5dbd9f;
     position: absolute;
     left: 0;
     top: 0;
@@ -806,7 +806,7 @@ header {
 
 .service:after {
     content: "";
-    background-color: #10694d;
+    background-color: #5dbd9f;
     position: absolute;
     left: 0;
     top: 0;
@@ -890,7 +890,7 @@ header {
 
 .pricing::after {
     content: "";
-    background-color: #10694d;
+    background-color: #4b9880;
     position: absolute;
     left: 0;
     right: 0;
@@ -1468,8 +1468,8 @@ header {
 }
 
 .footer-logo {
-    text-align: center;
-    margin-bottom: 40px;
+    text-align: right;
+    margin-right: 5px;
 }
 
 .footer-logo>a>img {
@@ -1499,9 +1499,9 @@ header {
 }
 
 .footer-copyright p {
-    text-align: center;
+        text-align: left;
     font-size: 14px;
-    margin: 0;
+    margin-top: 20px;
 }
 
 
@@ -1513,6 +1513,15 @@ header {
 @media only screen and (max-width: 991px) {}
 
 @media only screen and (max-width: 767px) {
+    .footer-copyright p {
+        text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+    .footer-logo {
+    text-align: center;
+    margin-right: 5px;
+}
     .bg-img{
         background-image: url('../img/background2.jpg');
     }

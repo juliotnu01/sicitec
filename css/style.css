@@ -247,14 +247,34 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .outline-btn {
     background: transparent;
-    color: #6195FF !important;
-    border-color: #6195FF;
+    color: #000 !important;
+    border-color: #000;
 }
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
     opacity: 0.8;
+      border-color: #000;
+
+}
+ .pricing:hover .price-btn .outline-btn {
+     background: transparent;
+    color: #fff !important;
+    border-color: #fff;
+
+}
+.pricing:hover .price-btn .outline-btn a{
+     background: transparent;
+    color: #fff !important;
+    border-color: #fff;
+
 }
 
+.pricing .price-btn .outline-btn a{
+     background: transparent;
+    color: #000 !important;
+    border-color: #000;
+
+}
 
 /*------------------------------------*\
 	Logo
@@ -930,9 +950,18 @@ header {
     text-align: center;
     margin: auto;
     border-radius: 50%;
-    border: 2px solid #6195FF;
+    border: 2px solid #000;
 }
-
+.pricing:hover .price {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+}
 .pricing .price h3 {
   font-size: 42px;
   margin: 0px;

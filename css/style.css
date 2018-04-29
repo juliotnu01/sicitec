@@ -1533,6 +1533,11 @@ header {
     margin-top: 20px;
 }
 
+.imgJuliot-left {
+    margin-left: 5px;
+    margin-top: -20px;
+    margin-right: 20px;
+}
 
 /*------------------------------------*\
 	Responsive
@@ -1542,6 +1547,23 @@ header {
 @media only screen and (max-width: 991px) {}
 
 @media only screen and (max-width: 767px) {
+    .carousel-inner>.active, .carousel-inner>.next, .carousel-inner>.prev{
+        display: -webkit-box;
+    }
+   .imgJuliot-left {
+    margin-left: -46px;
+    margin-top: -80px;
+    margin-right: -30px;
+    padding: 50px;
+}
+    
+    .img-responsive-j{
+        margin-left: 10%;
+    }
+
+    .img-responsive{
+        margin-left: 50px;
+    }
     .footer-copyright p {
         text-align: center;
     font-size: 14px;
@@ -1554,9 +1576,11 @@ header {
     .bg-img{
         background-image: url('../img/background2.jpg');
     }
-     #myCarousel{
-  visibility: hidden;
+    .carousel-inner .item{
+        width: 100vh;
+        height: 100vh
     }
+    
  
     .white-text {
     color: #FFF;
